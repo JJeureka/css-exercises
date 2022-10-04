@@ -1,0 +1,21 @@
+.reddish {
+    background-color: #ec446e;
+    font-family: ;
+}
+
+.large-font {
+    font-size: 24px;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#div-two {
+    font-size: 36px;
+    color: #1b0d97;
+}
+
+
+#div-four {
+    background-color: #2ce61e;
+    font-weight: bold;
+    font-size: 24px;
+}
