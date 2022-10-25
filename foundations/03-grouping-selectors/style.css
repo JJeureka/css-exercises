@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#first-button {
+
+    color: white;
+    background-color: black;
+}
+
+
+#second-button {
+
+    color: white;
+    background-color: yellow;
+}
