@@ -19,8 +19,11 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px  rgba(0,0,0,.2);
+  padding: 30px;
+
 }
+
 
 .icon {
   color: royalblue;
@@ -35,6 +38,23 @@ body {
   justify-content: center;
 }
 
+.top {
+
+  display: flex;
+  justify-content: center;
+}
+
+.mid {
+
+  margin-top: 20px;
+}
+
+.header {
+
+  font-weight: 900;
+  font-size: larger;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -46,6 +66,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 170px;
 }
 
 button {
