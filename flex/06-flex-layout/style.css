@@ -5,18 +5,47 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+/* for reference, the solution removes justify content space between on the body
+and adds flex:1 which means flex-grow:1, flex-shrink:0, flex-basis:0. In
+conjunction with the other 2 children being flex-grow:0, this causes the header
+and footer to go to the ends of the page. Apparently both are correct, but it
+was very interesting to see the differences. I still don't fully understand
+flex-shrink and flex-grow */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 img {
   width: 600px;
 }
+
+
+
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
+
+
 
 input {
   border: 1px solid #ddd;
@@ -24,4 +53,23 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+  justify-content: space-between;
+  padding-right: 1rem;  
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
 }
