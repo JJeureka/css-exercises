@@ -22,8 +22,7 @@ body {
   box-shadow: 2px 4px 16px  rgba(0,0,0,.2);
   padding: 16px;
   display: flex;
-  align-items: start; 
-
+  gap: 16px;
 }
 
 
@@ -38,14 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  flex-shrink: 0;
 
-.left {
-
-  display: flex;
-  justify-content: center;
-  margin-right: 20px;
-  flex-grow: 1;
 }
 
 .mid {
