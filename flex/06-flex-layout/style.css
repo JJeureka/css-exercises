@@ -19,8 +19,7 @@ flex-shrink and flex-grow */
 
 .header {
   display: flex;
-  justify-content: space-between;
-  padding-right: 1rem;  
+  justify-content: space-between; 
 }
 
 .content {
@@ -58,8 +57,7 @@ input {
 .footer {
   display: flex;
   background-color: #eeeeee;
-  justify-content: space-between;
-  padding-right: 1rem;  
+  justify-content: space-between;  
 
 }
 
@@ -67,6 +65,10 @@ ul {
   display: flex;
   list-style-type: none;
   gap: 1rem;
+  padding: 1rem;
+  margin: 0;
+  /* have to put margin 0 and padding 0 or there is automatically
+  a small amount of each... this fucked me up multiple times */
 }
 
 a {
